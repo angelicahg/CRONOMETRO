@@ -1,0 +1,38 @@
+* {
+    transition: all 0.3s;
+    height:auto;
+    
+}
+
+#tiempoTranscurrido {
+    font-size: 5rem;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    background: linear-gradient(rgb(199, 84, 228), white);
+}
+
+.columns {
+    text-align: center;
+    justify-content: center;
+}
+
+.button {
+    cursor: pointer;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+.button:hover {
+    transform: scale(1);
+    transition: 0.8s;
+    background-color: rgb(76, 0, 255);
+    color: black;
+}
+
+/*.section {
+    border-radius: 30px;
+
+    background: rgb(22, 21, 21);
+}

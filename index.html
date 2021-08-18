@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=10" />
+        <title>Cronómetro</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <section class="section">
+            <div class="columns">
+                <div class="column has-text-centered">
+                    <h2 id="tiempoTranscurrido"></h2>
+                    <button class="button is-success is-large" id="btnIniciar">
+                        <span class="mdi mdi-play">&#9658;</span>
+                    </button>
+                    <button class="button is-success is-large" id="btnPausar">
+                        <span class="mdi mdi-pause">&#8718;</span>
+                    </button>
+                    <button class="button is-primary is-large" id="btnMarca">
+                        <span class="mdi mdi-flag">&#8635;</span>
+                    </button>
+                    <button class="button is-warning is-large" id="btnDetener">
+                        <span class="mdi mdi-stop">&#8635;</span>
+                    </button>
+                    <div id="contenedorMarcas"></div>
+                </div>
+            </div>
+        </section>
+    </body>
+    <script src="script.js"></script>
+</html>
